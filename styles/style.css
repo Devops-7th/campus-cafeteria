@@ -99,9 +99,30 @@ footer {
         font-size: 1.6rem;
     }
 }
+
 @media (max-width: 600px) {
 .deals-page .card {
 border-left-width: 3px;
 padding: 12px;
+  
+/* Menu Page (Member 1 - Ali Imtia*/
+.menu-page .card h3 {
+color: #800000;
+border-bottom: 2px solid #800000;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+.menu-page .card ul {
+list-style: none;
+}
+.menu-page .card li {
+padding: 6px 0;
+border-bottom: 1px dashed #ddd;
+}
+
+@media (max-width: 600px) {
+.menu-page .grid-container {
+grid-template-columns: 1fr;
+  
 }
 }
