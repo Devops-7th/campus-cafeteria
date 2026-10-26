@@ -99,3 +99,17 @@ footer {
         font-size: 1.6rem;
     }
 }
+/* ===== Menu Page (Member 1 - Ali Imtiaz) ===== */
+.menu-page .card h3 {
+color: #800000;
+border-bottom: 2px solid #800000;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+.menu-page .card ul {
+list-style: none;
+}
+.menu-page .card li {
+padding: 6px 0;
+border-bottom: 1px dashed #ddd;
+}
