@@ -113,3 +113,9 @@ list-style: none;
 padding: 6px 0;
 border-bottom: 1px dashed #ddd;
 }
+
+@media (max-width: 600px) {
+.menu-page .grid-container {
+grid-template-columns: 1fr;
+}
+}
