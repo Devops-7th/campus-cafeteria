@@ -1,101 +1,29 @@
-/* Shared Global Styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* ===== Order Page (Member 3 - Hafiz Muhammad) ===== */
+.order-page main ol {
+margin: 15px 0 15px 25px;
 }
-
-body {
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
+.order-page main ol li {
+padding: 8px 0;
 }
-
-header {
-    background-color: #800000;
-    color: #fff;
-    padding: 1.5rem;
-    text-align: center;
+.order-page main h3 {
+color: #800000;
+margin-top: 20px;
 }
-
-nav {
-    background-color: #4a0000;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px;
+.order-page main h3 + p {
+background-color: #fff3cd;
+border-left: 4px solid #ffc107;
+padding: 10px;
+border-radius: 4px;
 }
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
+git add styles/style.css
+git commit -m "style: add ordered steps layout and peak-hours notice box"
+Part 2, pasted below part 1 (the responsive media query):
+DevOps Assignment 01 – Team Execution Plan
+Page 15 of 22
+@media (max-width: 600px) {
+.order-page main ol {
+margin-left: 18px;
 }
-
-nav a:hover {
-    background-color: #800000;
-    border-radius: 4px;
 }
-
-main {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #333;
-    color: #fff;
-    margin-top: 20px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 6px;
-    background-color: #fff;
-}
-
-/* Mandatory CSS Media Query for Responsiveness */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-    main {
-        margin: 10px;
-        padding: 15px;
-    }
-}
-
-/* ===== Home Page (Team Lead - Faizan) ===== */
-.home-page header h1 {
-    font-size: 2.2rem;
-    letter-spacing: 1px;
-}
-
-.home-page main h2,
-.home-page main h3 {
-    color: #800000;
-    margin: 15px 0 8px;
-}
-
-@media (max-width: 480px) {
-    .home-page header h1 {
-        font-size: 1.6rem;
-    }
-}
+git add styles/style.css
+git commit -m "style: add responsive list margins for small screens"
