@@ -99,3 +99,9 @@ footer {
         font-size: 1.6rem;
     }
 }
+@media (max-width: 600px) {
+.deals-page .card {
+border-left-width: 3px;
+padding: 12px;
+}
+}
